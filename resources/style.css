@@ -1,0 +1,42 @@
+.image {
+    border: 1px solid gray;
+    padding: 8px;
+    display: table;
+    margin: 0 auto
+}
+
+.menu {
+    margin: 10px;
+    background-color: bisque;
+}
+
+.content {
+    margin: 10px;
+    width: 100%;
+    background-color: azure;
+}
+
+.header {
+    margin: 10px;
+    background-color: beige
+}
+
+.hiddenForMobileHeader {
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.main {
+    display: flex;
+}
+
+@media screen and (max-device-width: 480px) {
+    .content {
+        background-color: aquamarine;
+    }
+    .hiddenForMobileHeader{
+        display: none;
+        margin: 0;
+    }
+
+}
